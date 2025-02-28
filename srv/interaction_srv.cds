@@ -5,7 +5,7 @@ service CatalogService {
 
     @requires           : 'authenticated-user'
     @cds.redirection.target
-    @odata.draft.enabled: true
+    @odata.draft.enabled: true 
     entity Interactions_Header as projection on interactions.Headers;
 
     @requires           : 'admin'
@@ -13,7 +13,7 @@ service CatalogService {
 
     @readonly
     entity Languages           as projection on sap.common.Languages;
-   
+
     @readonly
     @restrict: [{
         grant: 'READ',
