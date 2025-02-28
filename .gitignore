@@ -2,10 +2,10 @@
 _out
 *.db
 *.sqlite
-connection.properties
-default-*.json
-.cdsrc-private.json
-gen/
+# connection.properties
+# default-*.json
+# .cdsrc-private.json
+# gen/
 node_modules/
 target/
 
@@ -16,7 +16,7 @@ target/
 # MTA
 *_mta_build_tmp
 *.mtar
-mta_archives/
+# mta_archives/
 
 # Other
 .DS_Store
@@ -34,4 +34,4 @@ mta_archives/
 @cds-models
 
 # auto generated wildcard
-db/.env
+# db/.env
