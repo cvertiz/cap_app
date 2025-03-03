@@ -18,7 +18,8 @@
     "@sap/cds-dk": "^8"
   },
   "scripts": {
-    "start": "cds-serve",
+    "start": "cds run",
+    "app": "npm start --prefix app",
     "watch-interaction_items": "cds watch --open interaction_items/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
